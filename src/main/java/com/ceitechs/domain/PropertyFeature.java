@@ -10,6 +10,6 @@ import lombok.ToString;
 public class PropertyFeature {
     private int nbrOfRooms;
     private int nbrOfBaths;
-    private int nnrOfKitchens;    
+    private int nbrOfKitchens;    
     private String propertySize;
 }
