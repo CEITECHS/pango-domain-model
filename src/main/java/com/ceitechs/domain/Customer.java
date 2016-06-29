@@ -13,16 +13,13 @@ import lombok.Setter;
 public class Customer {
 
     private long customerId;
-
+    private CustomerProfile profile;
     private String firstName;
     private String lastName;
-
     private String phoneNumber;
     private String emailAddress;
-
     private String addressLine1;
     private String addressLine2;
-
     private String City;
     private String State;
     private String zip;
