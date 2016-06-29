@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.List;
 
 /**
  * @author iddymagohe
@@ -13,7 +14,6 @@ import java.time.LocalDate;
 @Getter
 @Setter
 public class CustomerProfile {
-
     private long profileId;
     private String userName;
     private String password;
@@ -23,5 +23,5 @@ public class CustomerProfile {
     private LocalDate verificationDate;
     private double customerRating;
     private LocalDate createdDate;
-
+    private List<CustomerSearchHistory> searcheedQueries;
 }
