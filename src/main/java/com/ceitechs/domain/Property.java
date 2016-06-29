@@ -1,5 +1,8 @@
 package com.ceitechs.domain;
 
+import java.util.List;
+import java.util.Map;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -10,7 +13,7 @@ import lombok.ToString;
 public class Property {
     private long propertyId;
     private String propertyDesc;
-    private String features;
+    private Map<String, String> features;
     private String category;
     private String addressLine1;
     private String addressLine2;
@@ -19,4 +22,5 @@ public class Property {
     private String country;
     private double[] location;
     private double rating;
+    private List<PropertyUnit> propertyUnits;
 }
