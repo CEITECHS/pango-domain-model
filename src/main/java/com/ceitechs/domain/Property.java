@@ -24,4 +24,5 @@ public class Property {
     private Customer owner;
     private PropertyFeature features;
     private PropertyRent rent;
+    private List<Picture> propertyImages;
 }

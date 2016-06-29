@@ -24,5 +24,6 @@ public class PropertyUnit {
     private Property property;
     private PropertyFeature features;
     private PropertyRent rent;
+    private List<Picture> propertyUnitImages;
 }
 
