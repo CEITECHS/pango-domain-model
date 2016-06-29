@@ -23,5 +23,5 @@ public class CustomerProfile {
     private LocalDate verificationDate;
     private double customerRating;
     private LocalDate createdDate;
-    private List<CustomerSearchHistory> searcheedQueries;
+    private List<CustomerSearchHistory> searchedQueries;
 }
