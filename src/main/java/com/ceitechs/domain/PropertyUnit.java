@@ -13,15 +13,16 @@ import lombok.ToString;
 public class PropertyUnit {
     private long propertyUnidId;
     private String propertyUnitDesc;
-    private String propertySize;
     private String propertyType;
     private String propertyTerms;
-    private double propertyRent;
     private LocalDate nextAvailableDate;
     private boolean autoListInd;
     private double[] location;
     private double propertyRating;
     private List<Review> reviews;
     private Customer owner;
+    private Property property;
+    private PropertyFeature features;
+    private PropertyRent rent;
 }
 

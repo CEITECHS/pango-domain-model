@@ -1,7 +1,6 @@
 package com.ceitechs.domain;
 
 import java.util.List;
-import java.util.Map;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -13,7 +12,6 @@ import lombok.ToString;
 public class Property {
     private long propertyId;
     private String propertyDesc;
-    private Map<String, String> features;
     private String category;
     private String addressLine1;
     private String addressLine2;
@@ -23,4 +21,7 @@ public class Property {
     private double[] location;
     private double rating;
     private List<PropertyUnit> propertyUnits;
+    private Customer owner;
+    private PropertyFeature features;
+    private PropertyRent rent;
 }

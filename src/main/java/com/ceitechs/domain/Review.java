@@ -17,4 +17,5 @@ public class Review {
     private double rating;
     private String reviewedBy;
     private LocalDate createdDate;
+    private boolean recommend;
 }
