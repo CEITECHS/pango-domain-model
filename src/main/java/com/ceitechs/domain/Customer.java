@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter
 public class Customer {
 
-    private String customerId;
+    private long customerId;
 
     private String firstName;
     private String lastName;
