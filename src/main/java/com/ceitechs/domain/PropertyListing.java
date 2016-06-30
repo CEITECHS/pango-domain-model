@@ -18,11 +18,12 @@ public class PropertyListing {
 
     private String propertyId;
     private Coordinator ownerDetail;
-    private LocalDate creatdedDate;
+    private LocalDate createdDate;
     private LocalDate verifiedOn;
     private Coordinator verifiedBy;
     private VerificationStatus status;
     private String verificationNotes;
+
 
     private String propertyDesc;
     List<String> additionalFeatures;

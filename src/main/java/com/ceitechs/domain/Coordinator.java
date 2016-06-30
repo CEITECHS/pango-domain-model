@@ -29,4 +29,5 @@ public class Coordinator {
     private String username;
     private String password;
     private  boolean active;
+    private double[] nearbyLocation;
 }
