@@ -9,7 +9,6 @@ import java.util.List;
 @Getter
 @Setter
 public class PropertyListing {
-
    public enum VerificationStatus {
         Pending,
         InProgress,
