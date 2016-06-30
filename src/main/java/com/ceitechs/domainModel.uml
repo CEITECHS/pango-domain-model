@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2322.0583333333334" y="1724.0">com.ceitechs.domain.CorrespondenceType</node>
+    <node x="2158.1833333333334" y="2479.5">com.ceitechs.domain.PropertyUnitInquiry</node>
+    <node x="773.1551234567905" y="2399.0">com.ceitechs.domain.Property</node>
+    <node x="1184.5759876543216" y="1459.0">com.ceitechs.domain.CustomerTransactionHistory</node>
+    <node x="1627.1551234567905" y="1963.0">com.ceitechs.domain.PropertyUnit</node>
+    <node x="1585.8259876543216" y="1712.5">com.ceitechs.domain.PropertyUnitHistory</node>
+    <node x="1003.3259876543215" y="1712.5">com.ceitechs.domain.PropertyFeature</node>
+    <node x="1579.8259876543214" y="633.0">com.ceitechs.domain.CustomerPreference</node>
+    <node x="0.0" y="0.0">com.ceitechs.domain.Coordinator</node>
+    <node x="43.75" y="380.0">com.ceitechs.domain.PropertyListing</node>
+    <node x="1895.8259876543214" y="115.0">com.ceitechs.domain.Picture</node>
+    <node x="1616.0759876543216" y="1059.0">com.ceitechs.domain.Customer</node>
+    <node x="1493.5759876543216" y="1459.0">com.ceitechs.domain.CustomerPaymentProfile</node>
+    <node x="1136.2500000000002" y="1162.5">com.ceitechs.domain.TransactionType</node>
+    <node x="2378.3083333333334" y="2066.5">com.ceitechs.domain.InquiryCorrespondence</node>
+    <node x="784.3259876543215" y="1735.5">com.ceitechs.domain.PropertyRent</node>
+    <node x="1917.8259876543216" y="1678.0">com.ceitechs.domain.Review</node>
+    <node x="1835.8259876543214" y="564.0">com.ceitechs.domain.CustomerProfile</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ceitechs.domain.PropertyUnit" target="com.ceitechs.domain.Property">
+      <point x="0.0" y="188.0" />
+      <point x="1863.6551234567905" y="2379.0" />
+      <point x="1177.4051234567905" y="2379.0" />
+      <point x="183.75" y="-188.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnitInquiry" target="com.ceitechs.domain.InquiryCorrespondence">
+      <point x="136.125" y="-107.5" />
+      <point x="2475.8083333333334" y="2379.0" />
+      <point x="2502.3083333333334" y="2379.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyListing" target="com.ceitechs.domain.Coordinator">
+      <point x="-167.75" y="-314.5" />
+      <point x="0.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnitHistory" target="com.ceitechs.domain.PropertyUnit">
+      <point x="77.75" y="73.0" />
+      <point x="1819.0759876543216" y="1943.0" />
+      <point x="1863.6551234567905" y="1943.0" />
+      <point x="0.0" y="-188.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnitHistory" target="com.ceitechs.domain.Customer">
+      <point x="77.75" y="-73.0" />
+      <point x="0.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Review" target="com.ceitechs.domain.PropertyUnit">
+      <point x="82.25" y="107.5" />
+      <point x="2164.5759876543216" y="1933.0" />
+      <point x="2021.3217901234573" y="1933.0" />
+      <point x="157.66666666666674" y="-188.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Customer" target="com.ceitechs.domain.CustomerProfile">
+      <point x="135.33333333333326" y="-165.0" />
+      <point x="1954.4093209876546" y="1034.0" />
+      <point x="1999.3259876543214" y="1034.0" />
+      <point x="0.0" y="130.5" />
+    </edge>
+    <edge source="com.ceitechs.domain.Property" target="com.ceitechs.domain.PropertyUnit">
+      <point x="110.25" y="-188.0" />
+      <point x="1103.9051234567905" y="2369.0" />
+      <point x="1705.9884567901238" y="2369.0" />
+      <point x="-157.66666666666674" y="188.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Property" target="com.ceitechs.domain.Customer">
+      <point x="-110.25" y="-188.0" />
+      <point x="883.4051234567905" y="2369.0" />
+      <point x="773.8259876543215" y="2369.0" />
+      <point x="773.8259876543215" y="1419.0" />
+      <point x="1645.0759876543216" y="1419.0" />
+      <point x="-174.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Review" target="com.ceitechs.domain.Customer">
+      <point x="0.0" y="-107.5" />
+      <point x="2082.3259876543216" y="1439.0" />
+      <point x="1935.0759876543216" y="1439.0" />
+      <point x="116.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnitInquiry" target="com.ceitechs.domain.PropertyUnit">
+      <point x="-136.125" y="-107.5" />
+      <point x="2203.5583333333334" y="2379.0" />
+      <point x="2021.321790123457" y="2379.0" />
+      <point x="157.66666666666652" y="188.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnit" target="com.ceitechs.domain.Customer">
+      <point x="52.55555555555566" y="-188.0" />
+      <point x="1916.2106790123462" y="1943.0" />
+      <point x="1907.3259876543216" y="1943.0" />
+      <point x="1907.3259876543216" y="1439.0" />
+      <point x="1877.0759876543216" y="1439.0" />
+      <point x="58.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.CustomerTransactionHistory" target="com.ceitechs.domain.PropertyUnit">
+      <point x="-72.25" y="84.5" />
+      <point x="1256.8259876543216" y="1923.0" />
+      <point x="1758.5440123456794" y="1923.0" />
+      <point x="-105.11111111111109" y="-188.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.InquiryCorrespondence" target="com.ceitechs.domain.Picture">
+      <point x="62.0" y="-84.5" />
+      <point x="2564.3083333333334" y="350.0" />
+      <point x="2082.1259876543218" y="350.0" />
+      <point x="82.80000000000018" y="50.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.CustomerPaymentProfile" target="com.ceitechs.domain.Customer">
+      <point x="0.0" y="-84.5" />
+      <point x="1651.0759876543216" y="1439.0" />
+      <point x="1761.0759876543216" y="1439.0" />
+      <point x="-58.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.CustomerProfile" target="com.ceitechs.domain.Picture">
+      <point x="0.0" y="-130.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnitInquiry" target="com.ceitechs.domain.Customer">
+      <point x="-45.375" y="-107.5" />
+      <point x="2294.3083333333334" y="2379.0" />
+      <point x="2311.5583333333334" y="2379.0" />
+      <point x="2311.5583333333334" y="1429.0" />
+      <point x="1993.0759876543216" y="1429.0" />
+      <point x="174.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.CustomerTransactionHistory" target="com.ceitechs.domain.Customer">
+      <point x="72.25" y="-84.5" />
+      <point x="1401.3259876543216" y="1429.0" />
+      <point x="1703.0759876543216" y="1429.0" />
+      <point x="-116.0" y="165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnit" target="com.ceitechs.domain.PropertyUnitHistory">
+      <point x="-52.55555555555566" y="-188.0" />
+      <point x="1811.0995679012349" y="1913.0" />
+      <point x="1663.5759876543216" y="1913.0" />
+      <point x="-77.75" y="73.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnitHistory" target="com.ceitechs.domain.CustomerTransactionHistory">
+      <point x="-77.75" y="-73.0" />
+      <point x="1663.5759876543216" y="1653.0" />
+      <point x="1401.3259876543216" y="1653.0" />
+      <point x="72.25" y="84.5" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnit" target="com.ceitechs.domain.Review">
+      <point x="105.11111111111109" y="-188.0" />
+      <point x="1968.7662345679016" y="1943.0" />
+      <point x="2000.0759876543216" y="1943.0" />
+      <point x="-82.25" y="107.5" />
+    </edge>
+    <edge source="com.ceitechs.domain.CustomerTransactionHistory" target="com.ceitechs.domain.TransactionType">
+      <point x="-72.25" y="-84.5" />
+      <point x="1256.8259876543216" y="1409.0" />
+      <point x="1219.2500000000002" y="1409.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.ceitechs.domain.CustomerPreference" target="com.ceitechs.domain.Customer">
+      <point x="59.0" y="61.5" />
+      <point x="1756.8259876543214" y="1034.0" />
+      <point x="1819.0759876543216" y="1034.0" />
+      <point x="0.0" y="-165.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Property" target="com.ceitechs.domain.PropertyRent">
+      <point x="-36.75" y="-188.0" />
+      <point x="956.9051234567905" y="2359.0" />
+      <point x="834.0759876543215" y="2359.0" />
+      <point x="-49.75" y="50.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Property" target="com.ceitechs.domain.Picture">
+      <point x="-183.75" y="-188.0" />
+      <point x="809.9051234567905" y="2379.0" />
+      <point x="725.2500000000002" y="2379.0" />
+      <point x="725.2500000000002" y="360.0" />
+      <point x="1957.9259876543213" y="360.0" />
+      <point x="-41.40000000000009" y="50.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnitInquiry" target="com.ceitechs.domain.CorrespondenceType">
+      <point x="45.375" y="-107.5" />
+      <point x="2385.0583333333334" y="2379.0" />
+      <point x="2367.8083333333334" y="2379.0" />
+      <point x="-45.75" y="61.5" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnit" target="com.ceitechs.domain.Picture">
+      <point x="210.22222222222217" y="-188.0" />
+      <point x="2073.8773456790127" y="1943.0" />
+      <point x="2300.5583333333334" y="1943.0" />
+      <point x="2300.5583333333334" y="360.0" />
+      <point x="2040.7259876543214" y="360.0" />
+      <point x="41.40000000000009" y="50.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.InquiryCorrespondence" target="com.ceitechs.domain.CorrespondenceType">
+      <point x="-62.0" y="-84.5" />
+      <point x="2440.3083333333334" y="1943.0" />
+      <point x="2459.3083333333334" y="1943.0" />
+      <point x="45.75" y="61.5" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnit" target="com.ceitechs.domain.PropertyRent">
+      <point x="-210.22222222222217" y="-188.0" />
+      <point x="1653.4329012345684" y="1943.0" />
+      <point x="933.5759876543215" y="1943.0" />
+      <point x="49.75" y="50.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Property" target="com.ceitechs.domain.PropertyFeature">
+      <point x="36.75" y="-188.0" />
+      <point x="1030.4051234567905" y="2379.0" />
+      <point x="1064.0759876543216" y="2379.0" />
+      <point x="-60.75" y="73.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyUnit" target="com.ceitechs.domain.PropertyFeature">
+      <point x="-157.66666666666652" y="-188.0" />
+      <point x="1705.988456790124" y="1933.0" />
+      <point x="1185.5759876543216" y="1933.0" />
+      <point x="60.75" y="73.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.PropertyListing" target="com.ceitechs.domain.Picture">
+      <point x="167.75" y="-314.5" />
+      <point x="547.0" y="350.0" />
+      <point x="1916.5259876543214" y="350.0" />
+      <point x="-82.79999999999995" y="50.0" />
+    </edge>
+    <edge source="com.ceitechs.domain.Customer" target="com.ceitechs.domain.CustomerPreference">
+      <point x="-135.33333333333348" y="-165.0" />
+      <point x="1683.742654320988" y="1034.0" />
+      <point x="1638.8259876543214" y="1034.0" />
+      <point x="-59.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="4418.5" y="2547.0" />
+  <SelectedNodes>
+    <node>com.ceitechs.domain.PropertyUnit</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
