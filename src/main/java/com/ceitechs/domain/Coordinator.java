@@ -26,5 +26,7 @@ public class Coordinator {
     private String zip;
     private String country;
     private LocalDate joinedDate;
+    private String username;
+    private String password;
     private  boolean active;
 }
