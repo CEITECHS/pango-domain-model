@@ -13,4 +13,5 @@ import lombok.Setter;
 public class Picture {
     private String extension;
     private String contentBase64;
+    private String caption;
 }
