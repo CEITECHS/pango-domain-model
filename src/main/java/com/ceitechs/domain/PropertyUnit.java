@@ -25,7 +25,7 @@ public class PropertyUnit {
     private PropertyFeature features;
     private PropertyRent rent;
     private List<Picture> propertyUnitImages;
-    private List<PropertyUnitHistory> history;
+    private List<UnitRentalHistory> history;
     private List<PropertyUnitInquiry> enquiries;
 }
 
