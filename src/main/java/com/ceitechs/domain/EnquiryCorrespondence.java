@@ -12,7 +12,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class InquiryCorrespondence {
+public class EnquiryCorrespondence {
     private String subject;
     private String message;
     private Picture attachment;

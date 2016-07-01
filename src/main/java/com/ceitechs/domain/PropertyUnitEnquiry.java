@@ -14,13 +14,13 @@ import java.util.List;
 
 @Getter
 @Setter
-public class PropertyUnitInquiry {
+public class PropertyUnitEnquiry {
     private String correspondenceId;
     private Customer customer;
     private PropertyUnit propertyUnit;
     private String subject;
     private String message;
-    private LocalDate inquiryDate;
-    private CorrespondenceType inquiryType;
-    List<InquiryCorrespondence> correspondences;
+    private LocalDate enquiryDate;
+    private CorrespondenceType enquiryType;
+    List<EnquiryCorrespondence> correspondences;
 }
