@@ -27,5 +27,6 @@ public class PropertyUnit {
     private List<Picture> propertyUnitImages;
     private List<UnitRentalHistory> history;
     private List<PropertyUnitEnquiry> enquiries;
+    private List<UnitHoldingHistory> holdingHistory;
 }
 
