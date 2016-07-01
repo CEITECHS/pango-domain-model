@@ -19,6 +19,7 @@ public class PendingPayment {
     private String currencyType;
     private LocalDate paymentCreatedDate;
     private LocalDate paymentPostedDate;
+    private String transactionType;
 }
 
 
