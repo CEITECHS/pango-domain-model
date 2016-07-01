@@ -10,6 +10,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class PendingPayment {
+    //Broken down(monthly) based on rental agreement start and end-date
     private LocalDate startDate;
     private LocalDate endDate;
     private double paymentAmount;
