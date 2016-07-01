@@ -18,4 +18,5 @@ public class CustomerPaymentProfile {
     private String routingNumber;
     private String accountNumber;
     private boolean defaultPaymentProfile;
+    private String accountType;
 }
