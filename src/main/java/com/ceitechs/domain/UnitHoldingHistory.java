@@ -1,6 +1,7 @@
 package com.ceitechs.domain;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,6 +11,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class UnitHoldingHistory {
+    private long holdingReferenceId;
     private PropertyUnit propertyUnit;
     private Customer customer;
     private LocalDate startDate;

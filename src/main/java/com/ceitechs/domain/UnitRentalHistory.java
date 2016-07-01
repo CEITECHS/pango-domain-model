@@ -11,11 +11,12 @@ import lombok.ToString;
 @Setter
 @ToString
 public class UnitRentalHistory {
+    private long rentalReferenceId;
     private PropertyUnit propertyUnit;
     private Customer customer;
     private LocalDate startDate;
     private LocalDate endDate;
-    private CustomerTransactionHistory transactionHistory;
+    private List<CustomerTransactionHistory> transactionHistory;
     private List<PendingPayment> pendingPayments;
     private boolean isActive;
 }

@@ -11,7 +11,8 @@ import lombok.ToString;
 @ToString
 public class CustomerTransactionHistory {
     private Customer customer;
-    private PropertyUnit propertyUnit;
+    private UnitRentalHistory rentalHistory;
+    private UnitHoldingHistory holdingHistory;
     private TransactionType transactionType;
     private String transactionDesc;
     private double transactionAmount;
