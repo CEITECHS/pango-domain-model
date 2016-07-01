@@ -14,9 +14,11 @@ public class PendingPayment {
     private LocalDate startDate;
     private LocalDate endDate;
     private double paymentAmount;
-    private boolean paidFlag;
+    private String paymentStatus;
     private String paymentPeriod;
     private String currencyType;
+    private LocalDate paymentCreatedDate;
+    private LocalDate paymentPostedDate;
 }
 
 
