@@ -16,6 +16,7 @@ public class PendingPayment {
     private double paymentAmount;
     private boolean paidFlag;
     private String paymentPeriod;
+    private String currencyType;
 }
 
 
