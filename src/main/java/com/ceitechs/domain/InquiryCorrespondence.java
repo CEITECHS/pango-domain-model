@@ -2,12 +2,16 @@ package com.ceitechs.domain;
 
 
 import java.time.LocalDate;
-import java.util.List;
+
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * @author iddymagohe
  * @since 0.1
  */
+@Getter
+@Setter
 public class InquiryCorrespondence {
     private String subject;
     private String message;

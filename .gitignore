@@ -64,3 +64,4 @@ fabric.properties
 /.idea/
 pango-domain-model.iml
 
+/target/
