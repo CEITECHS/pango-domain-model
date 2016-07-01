@@ -29,4 +29,3 @@ public class PropertyUnit {
     private List<PropertyUnitEnquiry> enquiries;
     private List<UnitHoldingHistory> holdingHistory;
 }
-
