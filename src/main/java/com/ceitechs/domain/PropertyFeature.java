@@ -11,6 +11,7 @@ import java.util.List;
 @ToString
 public class PropertyFeature {
     private int nbrOfRooms;
+    private int nbrOfBedRooms;
     private int nbrOfBaths;
     private int nbrOfKitchens;    
     private String propertySize;
