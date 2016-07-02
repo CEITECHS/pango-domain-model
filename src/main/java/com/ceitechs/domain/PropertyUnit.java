@@ -11,7 +11,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class PropertyUnit {
-    private long propertyUnidId;
+    private long propertyUnitId;
     private String propertyUnitDesc;
     private String propertyType;
     private String propertyTerms;

@@ -12,8 +12,10 @@ import java.util.List;
 public class PropertyFeature {
     private int nbrOfRooms;
     private int nbrOfBedRooms;
+    private int nbrOfSelfContainedBedRooms;
     private int nbrOfBaths;
     private int nbrOfKitchens;    
     private String propertySize;
+    private String sizeUnit = "sqft"; // default squire foot
     List<String> additionalFeatures;
 }

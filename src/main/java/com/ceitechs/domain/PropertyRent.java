@@ -8,7 +8,6 @@ import lombok.ToString;
 @Setter
 @ToString
 public class PropertyRent {
-
     private double amount;
     private String currency;
     private RentPeriod rentalPeriod;

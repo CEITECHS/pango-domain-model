@@ -6,7 +6,6 @@ package com.ceitechs.domain;
 public enum RentPeriod {
     MONTHLY("mo"),
     YEARLY("yr");
-
     private String value;
 
     RentPeriod(String value) {
