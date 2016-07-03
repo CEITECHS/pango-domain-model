@@ -10,6 +10,7 @@ import lombok.ToString;
 public class PropertyRent {
     private double amount;
     private String currency;
-    private RentPeriod rentalPeriod;
+    private PerPeriod periodforAmount;
+    private int rentalPeriod;
 }
 
