@@ -19,6 +19,7 @@ public class PropertyUnitEnquiry {
     private Customer customer;
     private PropertyUnit propertyUnit;
     private String subject;
+    private String introduction;
     private String message;
     private LocalDate enquiryDate;
     private CorrespondenceType enquiryType;

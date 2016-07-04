@@ -9,5 +9,6 @@ public enum CorrespondenceType {
     INTERESTED,
     REQUEST_INFO,
     SITE_VISIT,
+    TAKEN,
     BOOK_PROPERTY
 }

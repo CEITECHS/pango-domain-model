@@ -11,9 +11,14 @@ import lombok.ToString;
 @Setter
 @ToString
 public class PropertyUnit {
+    public enum PropertyPurpose {
+        HOME,
+        BUSINESS
+    }
     private long propertyUnitId;
     private String propertyUnitDesc;
-    private String propertyType;
+    private PropertyPurpose purpose;
+    private ListingFor listingFor;
     private String propertyTerms;
     private LocalDate nextAvailableDate;
     private boolean autoListInd;

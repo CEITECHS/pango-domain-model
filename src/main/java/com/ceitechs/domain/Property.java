@@ -12,8 +12,7 @@ import lombok.ToString;
 public class Property {
     private long propertyId;
     private String propertyDesc;
-    private String category;
-    private PURPOSE purpose;
+    private ListingFor listingFor;
     private String addressLine1;
     private String addressLine2;
     private String city;
