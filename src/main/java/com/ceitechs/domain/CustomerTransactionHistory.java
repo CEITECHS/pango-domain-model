@@ -10,11 +10,25 @@ import lombok.ToString;
 @Setter
 @ToString
 public class CustomerTransactionHistory {
+
+    public enum TransactionStatus {
+        PENDING,
+        PROCESSED,
+        SUCCESS,
+        FAILED,
+        CANCELLED
+    }
+
+    private String transactionId;
     private Customer customer;
     private UnitRentalHistory rentalHistory;
     private UnitHoldingHistory holdingHistory;
+    private CustomerPreference customerPreferenceHistory;
     private TransactionType transactionType;
+    private String transactionReferenceId;
+    private String payingAccount;
     private String transactionDesc;
+    private String statusReason;
     private double transactionAmount;
     private LocalDate transactionDate;
 }
