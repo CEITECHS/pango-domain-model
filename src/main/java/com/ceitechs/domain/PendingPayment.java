@@ -21,5 +21,3 @@ public class PendingPayment {
     private LocalDate paymentPostedDate;
     private String transactionType;
 }
-
-
