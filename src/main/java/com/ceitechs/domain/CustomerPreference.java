@@ -28,6 +28,7 @@ public class CustomerPreference {
     private CustomerTransactionHistory customerTransactionHistory; // For renewal payments , recreate the new one and deactivate the old one.
     private boolean active;
     private boolean paid;
+    private LocalDate paidOn;
     private boolean expired;
     private boolean sendNotification;
 }
