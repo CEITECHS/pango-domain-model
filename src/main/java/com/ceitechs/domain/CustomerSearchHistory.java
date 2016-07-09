@@ -15,4 +15,5 @@ import java.time.LocalDate;
 public class CustomerSearchHistory {
     private LocalDate date;
     private String query;
+    private CustomerPreference customerPreference;
 }
