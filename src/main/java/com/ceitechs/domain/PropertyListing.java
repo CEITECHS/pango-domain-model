@@ -36,13 +36,5 @@ public class PropertyListing {
     private double[] location;
     private List<Picture> propertyImages;
 
-    private int unitNbrOfRooms;
-    private int unitNbrOfBaths;
-    private int unitNbrOfKitchens;
-    List<String> unitAdditionalFeatures;
-    private String unitSize;
-    private double rentAmount;
-    private String currency;
-    private String rentalPeriod;
-    private List<Picture> unitImages;
+    private List<PropertyUnit> propertyUnits;
 }
