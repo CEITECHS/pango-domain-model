@@ -17,11 +17,17 @@ public class CustomerPreference {
     public enum PreferenceType {
         Notification;
     }
+    
+    public enum PreferenceCategory {
+        SEARCH;
+    }
 
     private long preferenceId;
     private PreferenceType preferenceType;
-    public LocalDate fromDate;
-    public LocalDate toDate;
+    private LocalDate fromDate;
+    private LocalDate toDate;
     private boolean active;
     private boolean sendNotification;
+    private PreferenceCategory category;
+    private CustomerSearchHistory customerSearchHistory;
 }

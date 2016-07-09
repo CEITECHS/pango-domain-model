@@ -1,9 +1,9 @@
 package com.ceitechs.domain;
 
+import java.time.LocalDate;
+
 import lombok.Getter;
 import lombok.Setter;
-
-import java.time.LocalDate;
 
 /**
  * @author iddymagohe
@@ -15,5 +15,4 @@ import java.time.LocalDate;
 public class CustomerSearchHistory {
     private LocalDate date;
     private String query;
-    private CustomerPreference customerPreference;
 }
