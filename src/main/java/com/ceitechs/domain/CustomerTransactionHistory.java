@@ -21,11 +21,10 @@ public class CustomerTransactionHistory {
 
     private String transactionId;
     private Customer customer;
-    private UnitRentalHistory rentalHistory;
+    // private UnitRentalHistory rentalHistory;
     private UnitHoldingHistory holdingHistory;
-    private CustomerPreference customerPreferenceHistory;
     private TransactionType transactionType;
-    private String transactionReferenceId;
+    private String paymentReferenceId;
     private String payingAccount;
     private String transactionDesc;
     private String statusReason;
